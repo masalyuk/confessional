@@ -1,0 +1,4 @@
+{
+    "gateway": "<YOUR_ASTERISK_SERVER>",
+    "api_key_file": "api.key"
+}

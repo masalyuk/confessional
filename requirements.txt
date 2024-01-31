@@ -1,0 +1,9 @@
+numpy==1.26.3
+soundfile==0.12.1
+sounddevice==0.4.6
+openai==1.7.2
+# baresipy which is used pip by default  it's too old
+# let's use version from git repo
+baresipy @ git+https://github.com/OpenJarbas/baresipy.git@master
+ffprobe
+pasimple
