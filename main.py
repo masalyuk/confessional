@@ -18,7 +18,7 @@ def init_persons():
         phone1 = PersonPhone(phone_book.get_entry_by_number(entry['number']))
 
 def init_sound():
-    subprocess.run(['./scripts/setup_audio.sh'])
+    subprocess.run(['./setup_audio.sh'])
 
 def main():
     init_sound()
