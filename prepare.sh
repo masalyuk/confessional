@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get upgrade -y
 
 # Install required packages
-sudo apt-get install -y git python python3-pip baresip ffmpeg pulseaudio libasound2-dev
+sudo apt-get install -y git  python3 python3-pip  python3-venv baresip ffmpeg pulseaudio libasound2-dev
 
 # Activate an existing virtual environment if it exists
 if [ -d "venv" ]; then

@@ -18,9 +18,9 @@ git clone https://github.com/masalyuk/confessional.git
 cd confessional
 
 # Run the prepare.sh script from the cloned repository
-if [ -f "scripts/prepare.sh" ]; then
-    chmod +x scripts/prepare.sh
-    ./scripts/prepare.sh
+if [ -f "prepare.sh" ]; then
+    chmod +x prepare.sh
+    ./prepare.sh
 else
     echo "The 'prepare.sh' script does not exist in the repository."
 fi
