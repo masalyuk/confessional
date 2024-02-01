@@ -1,9 +1,10 @@
-import pasimple
-import wave
-import audioop
 import time
 import threading
-from pathlib import Path
+import wave
+import audioop
+
+import pasimple
+
 # CONSTANSTS
 SAMPLE_RATE_HZ = 8000
 CHANNEL = 1

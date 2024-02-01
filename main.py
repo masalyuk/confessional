@@ -1,4 +1,3 @@
-import sounder
 import subprocess
 from phone_book import PhoneBook
 from person_phone import PersonPhone
