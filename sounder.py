@@ -15,7 +15,7 @@ NOISE_THR = 500
 
     
 class Sounder:
-    def __init__(self, threshold=0.01, silence_duration=5, sample_rate=8000, channels=1, filename="recording.wav"):
+    def __init__(self, threshold=0.01, silence_duration=5, sample_rate=8000, channels=1):
         self.threshold = threshold
         self.silence_duration = silence_duration
         self.sample_rate = sample_rate
